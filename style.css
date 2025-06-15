@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background: #C9D6FF;
+    min-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    background: linear-gradient(to bottom, #ffffff, #d6d8e4);
+    flex-direction: column;
+}
+
+header {
+    padding: 50px;
+    text-align: center;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+header h1 {
+    text-shadow: 0px 1px 3px;
+    font-size: 2.5rem;
+}
+
+header h2 {
+    text-shadow: 0px 1px 4px;
+    font-size: 1.6rem;
+}
+
+main {
+    width: 100%;
+    padding: 70px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #d6edf723;
+    gap: 120px;
+    flex: 1;
+}
+
+footer {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.img-i {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    padding: 10px;
+    gap: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 16px;
+    background-color: white;
+
+}
+
+.img-i:hover {
+    transform: scale(1.05);
+}
+
+
+footer button {
+    width: 20%;
+    padding: 10px;
+    border-radius: 10%;
+    border: none;
+    color: white;
+    background-color: black;
+}
+
+footer button:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+.img-i img {
+    height: 20vh;
+}
+
+.img-i button {
+    width: 80%;
+    padding: 10px;
+    border-radius: 10%;
+    border: none;
+}
+
+.img-i button:hover {
+    width: 80%;
+    padding: 10px;
+    border-radius: 10%;
+    border: none;
+    color: white;
+    background-color: black;
+}
+
+p {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    footer button {
+        width: 80%;
+    }
+
+    footer button:hover {
+        width: 80%;
+    }
+    .img-i{
+        padding: 50px;
+        width: 85%;
+    }
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objetos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>PEDRA, PAPEL E TESOURA!</h1>
+        <h2>Selecione o que você vai jogar!</h2>
+    </header>
+    <main>
+        <div class="img-i" id="Pedra">
+            <img src="./assets/rock_39413.png" alt="">
+            <p>PEDRA</p>
+            <button onclick="selecionar_random(this)" >Selecionar</button>
+        </div>
+        <div class="img-i" id="Papel">
+            <img src="./assets/hand-paper-svgrepo-com.png" alt="">
+            <p>PAPEL</p>
+            <button onclick="selecionar_random(this)" >Selecionar</button>
+        </div>
+        <div class="img-i" id="Tesoura">
+            <img src="./assets/angellist-svgrepo-com.png" alt="">
+            <p>TESOURA</p>
+            <button onclick="selecionar_random(this)" >Selecionar</button>
+        </div>
+    </main>
+
+    <footer>
+        <button onclick="resetar(this)" >Resetar Placar</button>
+        <h1 id="placar">PLACAR:  </h1>
+
+
+    </footer>
+
+
+    <script src="script.js" ></script>
+
+</body>
+</html>
