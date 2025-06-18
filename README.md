@@ -1,5 +1,5 @@
 Jogo de Pedra, Papel e Tesoura
-<img src="./preview/preview.jpg" alt="Tela principal" width="200px" />
+<img src="./preview/preview.jpg" alt="Tela principal" />
 
 Este é um jogo interativo de Pedra, Papel e Tesoura implementado com HTML, CSS e JavaScript. O jogo permite que você desafie o computador e mantenha um placar das partidas.
 
