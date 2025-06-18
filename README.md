@@ -5,11 +5,11 @@ Este é um jogo interativo de Pedra, Papel e Tesoura implementado com HTML, CSS 
 
 Funcionalidades Principais
 Escolha entre Pedra, Papel ou Tesoura:
-💻 Jogada automática do computador (aleatória);
-📊 Sistema de pontuação com vitórias, derrotas e empates;
-💾 Salvar placar usando localStorage (persistente);
-🔄 Botão para resetar o placar;
-📱 Design responsivo para dispositivos móveis.
+Jogada automática do computador (aleatória), 
+Sistema de pontuação com vitórias, derrotas e empates, 
+Salvar placar usando localStorage (persistente), 
+Botão para resetar o placar, 
+Design responsivo para dispositivos móveis.
 
 Tecnologias Utilizadas:
 HTML5: Estrutura semântica do jogo
