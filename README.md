@@ -1,29 +1,21 @@
-Jogo de Pedra, Papel e Tesoura
+<h2>Simulação do jogo de <b>Pedra, Papel e Tesoura</b> utilizando HTML, CSS e JavaScript. </h2> <h3> O jogo permite que você desafie o computador e mantenha um placar das partidas.  </h3>
 <img src="./preview/preview.jpg" alt="Tela principal" />
 
-Este é um jogo interativo de Pedra, Papel e Tesoura implementado com HTML, CSS e JavaScript. O jogo permite que você desafie o computador e mantenha um placar das partidas.
+<h2>Funcionalidades Principais:</h2>
+  <ul>
+    <li>Jogada automática do computador (aleatória)</li>
+    <li>Sistema de pontuação com vitórias, derrotas e empates</li>
+    <li>Salvar placar usando localStorage (persistente)</li>
+    <li>Botão para resetar o placar</li>
+    <li>Design responsivo para dispositivos móveis</li>
+    <li>Tela interativa mostrando os resultados do jogo</li>
+  </ul>
+<h2>Tecnologias Utilizadas:</h2>
+  <ul>
+    <li>HTML5: Estrutura semântica do jogo</li>
+    <li>CSS3: Efeitos visuais, fontes e responsibilidade da aplicação</li>
+    <li>JavaScript: Manipulação DOM, lógica do jogo e persistência de dados utilizando localStorage</li>
+  </ul>
 
-Funcionalidades Principais
-Escolha entre Pedra, Papel ou Tesoura:
-Jogada automática do computador (aleatória), 
-Sistema de pontuação com vitórias, derrotas e empates, 
-Salvar placar usando localStorage (persistente), 
-Botão para resetar o placar, 
-Design responsivo para dispositivos móveis.
-
-Tecnologias Utilizadas:
-HTML5: Estrutura semântica do jogo
-
-CSS3:
-Flexbox para layout responsivo
-Media queries para dispositivos móveis
-Efeitos de hover e sombras
-Fontes do Google (Montserrat)
-
-JavaScript:
-Manipulação DOM
-Lógica do jogo
-localStorage para persistência de dados
-Geração de números aleatórios
 
 Desenvolvido com ❤️ por Davi Teles de Moraes - Contribuições são bem-vindas!
