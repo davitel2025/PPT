@@ -30,6 +30,22 @@
             <p>TESOURA</p>
             <button onclick="selecionar_random(this)" >Selecionar</button>
         </div>
+        <div class="hide" id="modal" >
+            <div class="modal-content">
+                <img class="modal-out"  src="./assets/close-button-svgrepo-com.svg" alt="" onclick="fecharModal()" >
+                <p id="result-game" >EMPATE</p>
+                <div class="modal-result">
+                    <div class="modal-player">
+                        <img id="img-result" src="" alt="Jogada do Jogador">
+                        <p id="p-result-player" ></p>
+                    </div>
+                    <div class="modal-AI">
+                        <img id="img-bot" src="" alt="">
+                        <p id="p-result-bot" >L</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
 
     <footer>
